@@ -1,0 +1,64 @@
+.map{
+	padding: 50px 0;
+	height: 100%;
+
+	&__title{
+		margin-bottom: 50px;
+	}
+
+	&__content{
+		margin-bottom: 50px;
+		text-align: center;
+	}
+
+	&__figure{
+		background: url(../img/map/map.png)center center no-repeat;
+		height: 80%;
+		position: relative;
+	}
+
+	&__form{
+		height: 100%;
+	}
+}
+
+.form{
+	padding: 25px 40px;
+	position: absolute;
+	bottom: 0;
+	right: 10%;
+	background: white;
+	box-shadow: 0 0 15px grey;
+
+	&__input{
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__title{
+		margin-bottom: 30px;
+	}
+
+	&__button{
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.input{
+		font-family: Lato;
+		color:  #505050;
+		font-size: 16px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 400;
+		line-height: 25px;
+		padding: 5px 25px;
+		width: 350px;
+
+		margin-bottom: 15px;
+	}
+
+	.textarea{
+		height: 80px;
+		resize: none;
+		margin-bottom: 20px;
+	}
+}

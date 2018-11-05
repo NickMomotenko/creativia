@@ -1,0 +1,106 @@
+.main{
+	height: 100%;
+	width: 100%;
+	background: url(../img/intro/intro-bg.png) center center no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.header{
+	display: flex;
+	justify-content: space-between;
+	background: black;
+	height: 70px;
+
+	&__logo{}
+	&__menu{}
+}
+
+.menu{
+	height: 100%;
+
+	&__list{
+		height: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__item{
+		margin-right: 30px;
+
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+
+	&__link{
+		color: #a4a4a4;
+		transition: .5s;
+		font-family: Raleway;
+		font-size: 18px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 400;
+
+		&:hover{
+			color:white;
+		}
+	}
+}
+
+.slider{
+	height: 90%;
+	width: 100%;
+	color: white;
+	position: relative;
+
+	&__list{
+		height: 100%;
+		display: flex;
+		align-items: center;
+	}
+
+	&__item{
+		padding: 0 70px;
+	}
+
+	&__title{
+		margin-bottom: 45px;
+	}
+
+	&__content{
+		text-align: center;
+		margin-bottom: 45px;
+	}
+
+	&__buttons{
+		text-align: center;
+	}
+
+	&__controlers{
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+
+		.controlers{
+			width: 100%;
+			display: flex;
+			justify-content: space-between;
+
+			&__link{
+				display: block;
+				width: 17px;
+				height: 28px;
+
+				&--prev{
+					background:url(../img/intro/left.png) center center no-repeat;
+				}
+
+				&--next{
+					background:url(../img/intro/left.png) center center no-repeat;
+					transform: rotate(180deg);
+				}
+			}
+		}
+	}
+}

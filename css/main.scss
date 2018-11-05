@@ -1,0 +1,36 @@
+
+//breakpoints
+
+$tablets:768px;
+$phones:480px;
+
+
+//config
+@import 'config/variables.scss';
+@import 'config/media.scss';
+
+//layout
+@import 'layout/base.scss';
+
+//layout
+@import 'sections/intro.scss';
+@import 'sections/about.scss';
+@import 'sections/portfolio.scss';
+@import 'sections/team.scss';
+@import 'sections/socials.scss';
+@import 'sections/skills.scss';
+@import 'sections/skill.scss';
+@import 'sections/tech.scss';
+@import 'sections/bestseller.scss';
+@import 'sections/options.scss';
+@import 'sections/banner.scss';
+@import 'sections/blog.scss';
+@import 'sections/follow.scss';
+@import 'sections/map.scss';
+@import 'sections/footer.scss';
+
+
+
+
+
+

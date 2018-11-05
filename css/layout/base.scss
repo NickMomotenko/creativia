@@ -1,0 +1,139 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+  font-size: rem(16px);
+
+  @include tablets{
+    font-size: rem(15px);
+  }
+
+  @include phones{
+    font-size: rem(14px);
+  }
+}
+
+
+body,html{
+  height: 100%;
+  font-family: 'Lato';
+  font-size: 16px;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin-top: 0;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+body{
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  height: 100%;
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.title{
+  font-family: Raleway;
+  color:  #ffffff;
+  font-size: 30px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: center;
+
+  &--red{
+    color: #ff0036;
+  }
+
+  &--black{
+    color: black;
+  }
+
+  &--fw500{
+    font-weight: 500;
+  }
+
+  &--fz20{
+    font-size: 20px;
+  }
+
+  &--tal{
+    text-align: left;
+  }
+}
+
+.content{
+  font-family: Lato;
+  color:  #ffffff;
+  font-size: 16px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 22px;
+
+  &--black{
+    color: #505050;
+  }
+
+  &--fw700{
+    font-weight: 700;
+  }
+
+  &--fw400{
+    font-weight: 400;
+  }
+}
+
+.button{
+  background-color:  #131313;
+  border: none;
+  cursor: pointer;
+  padding: 15px 30px;
+  transition: .5s;
+  color: white;
+  text-transform: uppercase;
+
+  &:hover{
+    background-color:grey;
+  }
+
+  &--redbg{
+    background-color: red;
+    margin-right: 30px;
+  }
+
+  &--tar{
+    text-align: right;
+  }
+}
+
+
+

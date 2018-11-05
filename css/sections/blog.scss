@@ -1,0 +1,110 @@
+.blog{
+	padding: 50px 0;
+
+	&__title{
+		margin-bottom: 40px;
+	}
+
+	&__content{
+		margin-bottom: 90px;
+		text-align: center;
+	}
+
+	&__list{
+		margin-bottom: 40px;
+	}
+
+	&__item{
+		display: flex;
+		margin-bottom: 50px;
+
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+
+	&__avatar{
+		margin-right: 30px;
+	}
+
+	&__show{
+		text-align: center;
+
+		.show{
+			display: inline-block;
+			width: 43px;
+			height: 43px;
+			background: url(../img/intro/left.png) center center no-repeat #f2f2f2;
+			border-radius: 50%;
+			transform: rotate(-90deg);
+
+			&:hover{
+				
+			}
+		}
+	}
+}
+
+.desctipt{
+
+	&__title{
+		margin-bottom: 20px;
+	}
+
+	&__character{
+		margin-bottom: 20px;
+	}
+
+	&__content{
+		margin-bottom: 25px;
+	}
+
+}
+
+.character{
+	display: flex;
+	font-family: Lato;
+	color:  #a2a2a2;
+	font-size: 12px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+
+	&__name{
+		margin-right: 20px;
+
+		&:before{
+			content:'';
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 8px;
+			width: 13px;
+			height: 16px;
+			background: url(../img/blog/admin.png) center center no-repeat;
+		}
+	}
+
+	&__comments{
+		margin-right: 20px;
+
+		&:before{
+			content:'';
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 8px;
+			width: 15px;
+			height: 16px;
+			background: url(../img/blog/comment.png) center center no-repeat;
+		}
+	}
+
+	&__views{
+		&:before{
+			content:'';
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 8px;
+			width: 18px;
+			height: 16px;
+			background: url(../img/blog/view.png) center center no-repeat;
+		}
+	}
+}

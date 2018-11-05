@@ -1,0 +1,44 @@
+.skill{
+
+	padding-right: 50px;
+	text-align: center;
+
+	&:last-child{
+		padding-right: 0;
+	}
+
+	&__percentages{
+		position: relative;
+		margin-bottom: 15px;
+	}
+
+	&__perc{
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+
+		font-family: Lato;
+		font-size: 39.93px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 300;
+
+		&--red{
+			color: red;
+		}
+	}
+
+	&__name{
+		font-family: Raleway;
+		color:  #262626;
+		font-size: 20px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 500;
+		margin-bottom: 20px;
+	}
+
+	&__desc{
+		font-family: Lato;
+		color:  #505050;
+		font-size: 16px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 400;
+	}
+}

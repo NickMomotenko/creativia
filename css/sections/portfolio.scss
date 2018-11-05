@@ -1,0 +1,47 @@
+.portfolio{
+	
+
+	&__top{
+		background: #262626;
+		padding: 75px 0;
+	}
+}
+
+.top{
+
+	&__title{
+		margin-bottom: 25px;
+	}
+
+	&__list{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 0 30%;
+	}
+
+	&__link{
+		color: #a4a4a4;
+		transition: .5s;
+		font-family: Raleway;
+		font-size: 16px;/* Приближение из-за подстановки шрифтов */
+		font-weight: 700;
+		text-transform: uppercase;
+
+		&:hover{
+			color:red;
+		}
+	}
+}
+
+.bottom{
+
+	&__pictures{
+		display: flex;
+		flex-wrap: wrap;
+
+		.pictures{
+			width: 25%;
+		}
+	}
+}

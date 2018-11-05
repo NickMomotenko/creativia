@@ -1,0 +1,11 @@
+.footer{
+	background: #262626;
+	display: flex;
+	padding-top: 20px;
+
+	&__developer{
+		font-size: 20px;
+		color: white;
+		text-align: right;
+	}
+}
